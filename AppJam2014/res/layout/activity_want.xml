@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/GridBGColor"
+    android:orientation="vertical"
+    tools:context="com.example.appjam2014.WantActivity" >
+
+    <LinearLayout
+        android:id="@+id/Title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:background="@color/Black"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/Want"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="15dp"
+            android:text="Want..."
+            android:textColor="@color/White"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/INeedSomethingButton"
+        style="@style/VariationButtonText"
+        android:layout_width="700dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_weight="0.31"
+        android:background="@drawable/bluebutton"
+        android:text="@string/INeedSomethingLabel" />
+
+    <Button
+        android:id="@+id/IWantToEatButton"
+        style="@style/VariationButtonText"
+        android:layout_width="700dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_weight="0.31"
+        android:background="@drawable/bluebutton"
+        android:text="@string/IWantToEatLabel" />
+
+    <Button
+        android:id="@+id/IWantToDoButton"
+        style="@style/VariationButtonText"
+        android:layout_width="700dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_weight="0.31"
+        android:background="@drawable/bluebutton"
+        android:text="@string/IWantToDoLabel" />
+
+</LinearLayout>
